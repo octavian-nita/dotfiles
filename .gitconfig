@@ -1,0 +1,13 @@
+[user]
+	name = Octavian Nita
+	email = mnothro@yahoo.com
+[core]
+	editor = 'C:/Program Files/Sublime Text 3/sublime_text.exe' -w
+[merge]
+	tool = winmerge
+[mergetool "winmerge"]
+	cmd = 'C:/Program Files (x86)/WinMerge/WinMergeU.exe' -e -u -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\"
+[mergetool]
+	prompt = false
+[http]
+    proxy = http://username:password$@158.169.131.13:8012
