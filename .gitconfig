@@ -12,6 +12,6 @@
 [diff]
 	tool = winmerge
 [difftool "winmerge"]
-	cmd = c:/path/to/winmergeu.exe -e -u -x -wl -wr -dl "base" -dr "mine" \"$LOCAL\" \"$REMOTE\"
+    cmd = 'C:/Program Files (x86)/WinMerge/WinMergeU.exe' -e -u -x -wl -wr -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\"
 [http]
 	proxy = http://username:password$@158.169.131.13:8012
