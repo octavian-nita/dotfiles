@@ -10,12 +10,5 @@ git config --global merge.tool winmerge
 git config --replace --global mergetool.winmerge.cmd "'C:/Program Files (x86)/WinMerge/WinMergeU.exe' -e -u -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\""
 git config --global mergetool.prompt false
 
-:: Setting / modifying variables in loops -- example (TODO: remove this and place it into a gist):
-::
-:: set CLASSPATH=WEB-INF\classes
-:: for /f %%F in ('dir /b %LIBDIR%') do (
-::   set CLASSPATH=!CLASSPATH!;%LIBDIR%\%%F
-:: )
-
 endlocal
 exit /b %ERRORLEVEL%
