@@ -1,17 +1,36 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-
-	"font_face": "Consolas",
-	"font_size": 12,
-	"font_options": ["directwrite"],
-
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 1,
+	// "color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"trim_trailing_white_space_on_save": true
-
-    "highlight_modified_tabs": true,
+	"fade_fold_buttons": false,
+	"font_face": "PT Mono",
+	"font_options":
+	[
+		"directwrite"
+	],
+	"font_size": 11,
 	"highlight_line": true,
-    "line_padding_top": 1,
-	"rulers": [120],
+	"highlight_modified_tabs": true,
+
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options": ["draw_normal", "draw_active"],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		120
+	],
+	"tab_size": 2,
+	// "theme": "Seti.sublime-theme",
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
