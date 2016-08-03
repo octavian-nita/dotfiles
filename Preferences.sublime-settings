@@ -5,9 +5,17 @@
   "caret_extra_width": 1,
   "caret_style": "phase",
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  "drag_text": false,
   "draw_minimap_border": false,
   "ensure_newline_at_eof_on_save": true,
   "fade_fold_buttons": true,
+  "folder_exclude_patterns":
+  [
+    ".git",
+    ".idea",
+    ".sass-cache",
+    "node_modules"
+  ],
   "font_face": "Inconsolata",
   "font_options":
   [
@@ -15,9 +23,11 @@
     "gray_antialias",
     "subpixel_antialias"
   ],
-  "font_size": 14,
+  "font_size": 12,
   "highlight_line": true,
   "highlight_modified_tabs": true,
+  "http_proxy": "158.169.131.13:8012",
+  "https_proxy": "158.169.131.13:8012",
   "ignored_packages":
   [
     "Vintage"
@@ -27,10 +37,12 @@
     "draw_normal",
     "draw_active"
   ],
-  "line_padding_bottom": 3,
-  "line_padding_top": 3,
+  "line_padding_bottom": 2,
+  "line_padding_top": 2,
   "material_theme_small_tab": true,
   "overlay_scroll_bars": "enabled",
+  "proxy_password": "th81on$",
+  "proxy_username": "nitanoc",
   "rulers":
   [
     120
