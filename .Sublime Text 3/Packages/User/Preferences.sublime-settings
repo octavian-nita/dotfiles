@@ -1,0 +1,65 @@
+{
+	"added_words": [],
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"centurion_folder_icons": true,
+	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
+	"contrasted_light_quick_panel": true,
+	"contrasted_light_sidebar": true,
+	"contrasted_light_tabs": true,
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"drag_text": false,
+	"draw_minimap_border": false,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".git",
+		".idea",
+		".sass-cache",
+		"node_modules"
+	],
+	"font_face": "Inconsolata",
+	"font_options":
+	[
+		"directwrite",
+		"gray_antialias",
+		"subpixel_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"http_proxy": "user:pass$@proxy:port",
+	"https_proxy": "user:pass$@proxy:port",
+	"icon_file_type_enable": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"ignored_words": [],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 10,
+	"overlay_scroll_bars": "enabled",
+	"proxy_password": "user",
+	"proxy_username": "pass",
+	"rulers":
+	[
+		120
+	],
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
