@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 git config --global user.name "Octavian Nita"
-git config --global user.email mnothro@yahoo.com
+git config --global user.email octavian.nita@gmail.com
 
 git config --global core.editor "'C:/Program Files/Sublime Text 3/sublime_text.exe' -w"
 
