@@ -1,0 +1,37 @@
+{
+	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"urllib",
+			"curl",
+			"wget"
+		],
+		"osx":
+		[
+			"urllib"
+		],
+		"windows":
+		[
+			"urllib"
+		]
+	},
+	"http_proxy": "proxy:port",
+	"https_proxy": "proxy:port",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"EditorConfig",
+		"nginx",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter"
+	],
+	"proxy_password": "pass",
+	"proxy_username": "user"
+}
