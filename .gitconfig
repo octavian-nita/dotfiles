@@ -2,11 +2,17 @@
 	name = Octavian Nita
 	email = octavian.nita@gmail.com
 
-#[http]
-#	proxy = http://username:password$@proxy:port
-
 [core]
-	editor = '~/bin/subl' -w
+	editor = code --wait
+	preloadindex = true
+	fscache = true
+	askPass =
+
+# These variables override the values configured in merge / merge.tool!
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 
 #[merge]
 #	tool = winmerge
@@ -15,7 +21,7 @@
 #[mergetool]
 #	prompt = false
 
-#[diff]
-#	tool = winmerge
-#[difftool "winmerge"]
-#	cmd = 'C:/Program Files (x86)/WinMerge/WinMergeU.exe' -e -u -x -wl -wr -dl \"Base\" -dr \"Mine\" \"$LOCAL\" \"$REMOTE\"
+#[http]
+#	proxy = http://username:password$@proxy:port
+[gc]
+	auto = 256
