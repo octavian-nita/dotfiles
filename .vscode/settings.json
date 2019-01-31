@@ -1,31 +1,100 @@
 {
-    "editor.cursorStyle": "line-thin",
-    "editor.dragAndDrop": false,
-    "editor.fontFamily": "Inconsolata",
-    "editor.fontSize": 16,
-    "editor.letterSpacing": 0.5,
-    "editor.rulers": [
-        120
-    ],
-    "editor.scrollBeyondLastLine": false,
-    "editor.showFoldingControls": "always",
-    "editor.tabSize": 2,
-    "editor.wordWrapColumn": 120,
-    "editor.wordWrap": "on",
-    "files.insertFinalNewline": true,
-    "files.trimTrailingWhitespace": true,
-    "html.format.endWithNewline": true,
-    "html.format.maxPreserveNewLines": 1,
-    "http.proxy": "http://*****:*****$@127.0.0.1:1212",
-    "http.proxyStrictSSL": false,
-    "git.path": "c:\\RC\\Tools\\git\\bin\\git.exe",
-    "workbench.colorTheme": "Quiet Light",
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
-    "sublimeTextKeymap.promptV3Features": true,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "git.confirmSync": false,
+  "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+  "window.menuBarVisibility": "toggle",
+
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "file-icons",
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "right",
+
+  "breadcrumbs.enabled": false,
+
+  "editor.fontFamily": "Hasklig",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "editor.scrollBeyondLastLine": false,
+  "editor.showFoldingControls": "always",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "editor.dragAndDrop": false,
+  "editor.minimap.enabled": false,
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "afterDelay",
+
+  "search.location": "panel",
+  "extensions.autoUpdate": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+
+  "http.proxy": "http://*****:*****$@127.0.0.1:1212",
+  "http.proxyStrictSSL": false,
+
+  "auto-close-tag.SublimeText3Mode": true,
+
+  "prettier.printWidth": 120,
+
+  "html.format.endWithNewline": true,
+  "html.format.maxPreserveNewLines": 1,
+
+  "tidyMarkdown.disableFormatter": true,
+  "markdownlint.config": {
+    "MD013": false,
+    "MD033": {
+      "allowed_elements": ["small", "span", "dl", "dt", "dd"]
+    }
+  },
+
+  "sync.gist": "1c095cfae51d3295a10b0955a3b8050e",
+  "java.errors.incompleteClasspath.severity": "ignore",
+
+  "python.pythonPath": "C:\\RC\\Tools\\Python37\\python.exe",
+  "python.jediEnabled": false,
+  "python.linting.pylintEnabled": true,
+
+  "git.path": "C:\\RC\\Tools\\git\\bin\\git.exe",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "gitlens.codeLens.enabled": false,
+
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "xml",
+    "yml"
+  ],
+  "cSpell.userWords": ["mirela", "niţă", "photographe"]
 }
