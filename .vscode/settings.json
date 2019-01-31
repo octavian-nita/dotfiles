@@ -45,7 +45,6 @@
   "html.format.endWithNewline": true,
   "html.format.maxPreserveNewLines": 1,
 
-  "tidyMarkdown.disableFormatter": true,
   "markdownlint.config": {
     "MD013": false,
     "MD033": {
