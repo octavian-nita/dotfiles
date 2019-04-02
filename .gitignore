@@ -11,25 +11,23 @@
 **/nbactions.xml
 **/nb-configuration.xml
 
-**/*[._-]private.*
-**/*[._-]local.*
+*.pyc
+*.pyo
 
 **/.flattened-pom.xml
 **/rebel*
-
-**/*.log*
-**/*.lck*
-**/*.lock*
 **/*.cache
 
+**/bin/
+**/target/
 **/node_modules/
 
-**/bin/
 **/log/
-**/target/
+**/*.log*
+
 **/tmp/
-*.pyc
-*.pyo
+**/*.lck*
+**/*.lock*
 
 # Folder view configuration files
 .DS_Store
