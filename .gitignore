@@ -1,33 +1,43 @@
-**/.idea/
-**/*.iml
-**/*.iws
+.idea/
+*.iml
+*.iws
 
-**/.settings/
-**/.buildpath
-**/.classpath
-**/.project
+.settings/
+.buildpath
+.classpath
+.project
 
-**/nbproject/
-**/nbactions.xml
-**/nb-configuration.xml
+nbproject/
+nbactions.xml
+nb-configuration.xml
 
 *.pyc
 *.pyo
 
-**/.flattened-pom.xml
-**/rebel*
-**/*.cache
+.flattened-pom.xml
+rebel*
+*.cache
 
-**/bin/
-**/target/
-**/node_modules/
+bin/
+dist/
+target/
+node_modules/
+**/src/_includes/css
 
-**/log/
-**/*.log*
+log/
+*.log*
 
-**/tmp/
-**/*.lck*
-**/*.lock*
+npm-debug.*
+
+*.scssc
+*.swp
+.sass-cache
+.env
+.cache
+
+tmp/
+*.lck*
+*.lock*
 
 # Folder view configuration files
 .DS_Store
