@@ -1,3 +1,5 @@
+# See https://stackoverflow.com/questions/41761128/are-leading-asterisks-redundant-in-gitignore-path-matching-syntax
+
 .idea/
 *.iml
 *.iws
@@ -11,10 +13,13 @@ nbproject/
 nbactions.xml
 nb-configuration.xml
 
+tomcat*/
+
 *.pyc
 *.pyo
 
 .flattened-pom.xml
+dependency-reduced-pom.xml
 rebel*
 *.cache
 
