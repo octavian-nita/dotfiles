@@ -1,3 +1,6 @@
+# Commonly ignored file patterns in Java, JavaScript and Python code bases
+# possibly managed with Maven and developed with JetBrains IDEs, Eclipse or NetBeans
+
 # See https://stackoverflow.com/questions/41761128/are-leading-asterisks-redundant-in-gitignore-path-matching-syntax
 
 .idea/
@@ -13,24 +16,24 @@ nbproject/
 nbactions.xml
 nb-configuration.xml
 
-tomcat*/
-
-*.pyc
-*.pyo
-
-.flattened-pom.xml
-dependency-reduced-pom.xml
-rebel*
-*.cache
-
 bin/
 dist/
 target/
 node_modules/
 **/src/_includes/css
 
+.flattened-pom.xml
+dependency-reduced-pom.xml
+
+# Unit test reports
+TEST*.xml
+
 log/
 *.log*
+
+rebel*
+*.cache
+tomcat*/
 
 npm-debug.*
 
@@ -43,6 +46,25 @@ npm-debug.*
 tmp/
 *.lck*
 *.lock*
+
+# Compiled Python bytecode
+*.py[cod]
+
+# Package files
+*.jar
+
+# Applications
+*.app
+*.exe
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
 
 # Folder view configuration files
 .DS_Store
