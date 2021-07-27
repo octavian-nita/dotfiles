@@ -3,24 +3,46 @@
 
 # See https://stackoverflow.com/questions/41761128/are-leading-asterisks-redundant-in-gitignore-path-matching-syntax
 
-.idea/
+### IntelliJ IDEA ###
+.idea
 *.iml
+*.ipr
 *.iws
 
-.settings/
+### Eclipse/STS ###
+.apt_generated
 .buildpath
 .classpath
+.factorypath
 .project
+.settings
+.springBeans
+.sts4-cache
 
-nbproject/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 nbactions.xml
 nb-configuration.xml
+
+### VS Code ###
+.vscode/
 
 bin/
 dist/
 target/
 node_modules/
 **/src/_includes/css
+!**/src/main/**/target/
+!**/src/test/**/target/
+!.mvn/wrapper/maven-wrapper.jar
+HELP.md
 
 .flattened-pom.xml
 dependency-reduced-pom.xml
