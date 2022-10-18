@@ -12,16 +12,20 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   "breadcrumbs.enabled": true,
-  "editor.columnSelection": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
   "editor.cursorBlinking": "solid",
   "editor.cursorWidth": 5,
   "editor.dragAndDrop": false,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Cascadia Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.fontWeight": "400",
+  "editor.fontSize": 18,
+  "editor.fontWeight": "normal",
   "editor.formatOnPaste": true,
   "editor.letterSpacing": 0.5,
+  "editor.linkedEditing": true,
   "editor.lineHeight": 25,
   "editor.minimap.enabled": false,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -30,6 +34,7 @@
     120
   ],
   "editor.scrollBeyondLastLine": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first",
@@ -46,11 +51,13 @@
   "git.enableSmartCommit": true,
   "git.path": "/usr/local/bin/git",
   "gitlens.codeLens.enabled": false,
-  "html.format.endWithNewline": true,
+  "html.autoClosingTags": true,
   "html.format.maxPreserveNewLines": 1,
   "java.errors.incompleteClasspath.severity": "ignore",
-  "java.semanticHighlighting.enabled": true,
+  "javascript.autoClosingTags": true,
   "javascript.preferences.quoteStyle": "single",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown.extension.toc.levels": "2..6",
   "markdown.preview.lineHeight": 1.5,
   "markdownlint.config": {
@@ -61,25 +68,31 @@
         "span",
         "dl",
         "dt",
-        "dd",
-        "a",
-        "img"
+        "dd"
       ]
     }
   },
   "prettier.printWidth": 120,
   "prettier.singleQuote": true,
   "python.linting.pylintEnabled": true,
-  "python.pythonPath": "/usr/local/bin/python3",
+  "typescript.autoClosingTags": true,
   "typescript.preferences.quoteStyle": "single",
-  "vscode_custom_css.imports": [
-    "/Users/octavian/.vscodestyles.css"
-  ],
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Cobalt2",
   "workbench.fontAliasing": "antialiased",
   "workbench.iconTheme": "city-lights-icons-vsc-light",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "markdown.preview.breaks": true,
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
 }
