@@ -71,6 +71,7 @@ tmp/
 
 # Compiled Python bytecode
 *.py[cod]
+__pycache__/
 
 # Package files
 *.jar
